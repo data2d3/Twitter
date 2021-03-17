@@ -1,6 +1,6 @@
 # streaming tweets with tweepy
 
-tweepy is a a well written and super easy to use to stream tweets. _computermacgyver's_ has written some excellent code to stream tweets. We will walk through his code in this video.  
+tweepy is a a well written and super easy to use to stream tweets. _computermacgyver_ has written some excellent code to stream tweets. We will walk through his code in this video.  
 
 # Code
 
