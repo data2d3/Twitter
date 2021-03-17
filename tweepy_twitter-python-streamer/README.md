@@ -79,7 +79,7 @@ If you use this code in support of an academic publication, please cite:
     ACM (Montreal, Canada).
 
   
-This code is released by _computermacgyver's_ under the [GPLv2 license](http://www.gnu.org/licenses/gpl-2.0.html). Please [computermacgyver](http://www.scotthale.net/blog/?page_id=9) if you wish to use the code in ways that the GPLv2 license does not permit.
+This code is released by _computermacgyver_ under the [GPLv2 license](http://www.gnu.org/licenses/gpl-2.0.html). Please [computermacgyver](http://www.scotthale.net/blog/?page_id=9) if you wish to use the code in ways that the GPLv2 license does not permit.
 
 More details, related code, and the original academic paper using this code is available at http://www.scotthale.net/pubs/?chi2014 .
 
