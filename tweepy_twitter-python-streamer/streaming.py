@@ -29,7 +29,7 @@ class FileDumperListener(StreamListener):
 		os.system("mkdir -p %s"%(filepath))
 
 		d=datetime.today()
-		self.filename = "%i-%02d-%02d_tweets.json"%(d.year,d.month,d.day)		
+		self.filename = "%i-%02d-%02d-%02d-%02d_tweets.json"%(d.year,d.month,d.day,d.hour,d.minute)		
 		self.fh = open(self.basePath + "/" + self.filename,"a")#open for appending just in case
 		
 		self.tweetCount=0
@@ -58,7 +58,7 @@ class FileDumperListener(StreamListener):
 	#		  This means the log file could have tweets from a neighboring period (especially for sparse streams)
 	def rotateFiles(self):
 		d=datetime.today()
-		filenow = "%i-%02d-%02d.json"%(d.year,d.month,d.day)
+		filenow = "%i-%02d-%02d-%02d-%02d_tweets.json"%(d.year,d.month,d.day,d.hour,d.minute)
 		if (self.filename!=filenow):
 			print("%s - Rotating log file. Old: %s New: %s"%(datetime.now(),self.filename,filenow))
 			try:
