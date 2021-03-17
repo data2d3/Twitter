@@ -14,7 +14,7 @@ The tutorial notebook code is in the notebook * 1_python-twitter_quick_start.ipy
 
 
 
-# Required Instals
+# Required Installs
 
 You will need to install _python-twitter_   
 
